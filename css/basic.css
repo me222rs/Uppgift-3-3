@@ -41,7 +41,7 @@ background-repeat:no-repeat;}
 #maincontent {float: left; width: 350px; margin: 0;}
 #maincontent p {font-family: Verdana; font-size: 12px; line-height: 25px; color:#797066; margin:10px;}
 #maincontent img {float: left; width: 100px; padding-left:10px; padding-right:5px;}
-#maincontent h1{font-family: "Times new roman"; font-size: 28px; font-style:none; font-weight:300; color: #797066;}  
+#maincontent h1{font-family: "Times new roman"; font-size: 28px; font-style:none; font-weight:300; color: #797066; margin: 10px;}  
 
 
 
