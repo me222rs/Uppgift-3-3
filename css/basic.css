@@ -1,1 +1,93 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+body {background-color: #ffffff; margin: 0; padding: 0;}
+
+#container {width: 600px; margin-right: auto; margin-left: auto; background-color: #51473D;}
+
+#topbar {text-align:right;}
+#topbar {background-image: url(pics/coffey.jpg); background-position:bottom; height: 220px; width: 600px; 
+background-repeat:no-repeat;}
+#topbar {background-color: #51473D; color:#EAE7D2;}
+
+
+
+
+
+/*#menu ul{list-style-type: none; padding-top: 8px; padding-bottom: 1px; background-color: #797066; width: 480px;}
+#menu li{display: inline; padding:8px; padding-bottom: 1px; border: 1px solid; margin-right: -4px;}
+#menu a {padding: 0.1em 0.6em; text-decoration:none;border:1px #51473D; line-height: 1px;}
+#menu a:link{color: #EAE7D2;}
+#menu a:visited{color: #EAE7D2;}
+#menu a:hover{color: #84909C;}
+#menu a:active{text-decoration: none; background-color:#EAE7D2;}
+#menu{font-family: Times; font-size: 17px;}*/
+
+
+[href='#maincontent']{display:none;}
+#menu{margin-left: 0; padding-left: 15px; font-size: 100%; text-transform: capitalize;}
+#menu li{display: inline; list-style-type: none; margin-right: -4px;}
+#menu ul {padding:8px; padding-bottom:1px; padding-top: 20px;}
+#menu a{padding: 0.1em 0.6em; text-decoration: none; border-top: 1px solid #51473D; border-right: 1px solid #51473D; border-left: 1px solid #51473D; padding-top: 14px;}
+#menu{font-family: "Times new roman"; font-size: 17px;}
+#menu a:link{color:  #EAE7D2; background: #797066;}
+#menu a:visited{color: #EAE7D2; background: #797066;}
+#menu a:hover{background: #84909C;}
+#menu .active a{background: #EAE7D2; color: #797066;}
+
+
+
+
+#content {width: 600px; background-color: #EAE7D2; padding-top: 40px; font-family: "Times new roman"; font-size: 14px; line-height: 1.5;}
+
+#maincontent {float: left; width: 350px; margin: 0;}
+#maincontent p {font-family: Verdana; font-size: 12px; line-height: 25px; color:#797066; margin:10px;}
+#maincontent img {float: left; width: 100px; padding-left:10px; padding-right:5px;}
+#maincontent h1{font-family: "Times new roman"; font-size: 28px; font-style:none; font-weight:300; color: #797066;}  
+
+
+
+
+#subcontent {float: left; width: 240px; border-left: 1px dashed; padding: 4px; color: #797066;}
+#subcontent a{color:#51473D;}
+#subcontent ul {list-style-type:none}
+#subcontent h1 {font-family: "Times new roman"; font-size: 20px; font-style:none; font-weight:300; color: #797066;}
+#subcontent p {font-family: Verdana; font-size: 10px; line-height: 20px; color:#797066;}
+#subcontent h2 {font-family: "Times new roman"; font-size: 16px; font-style:none; font-weight:300; color: #797066;}
+
+
+
+
+
+#bottomcontent {clear: both;
+ position: relative;
+ z-index: 10;
+ height: 3em;
+ margin-top: -3em;
+ font-family: "Times new roman"; font-size: 12px; font-style: italic; color: #797066; line-height: 50px;}
+
+
+
+
+
+
+
+
+html, body, div, span, applet, object, iframe, 
+h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
